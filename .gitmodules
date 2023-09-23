@@ -1,0 +1,3 @@
+[submodule "ecommerce-django"] 
+  path = ecommerce-django
+  url = https://github.com/MohElmoniry/ecommerce-django.git
