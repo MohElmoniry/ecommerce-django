@@ -101,6 +101,7 @@ Naked==0.1.32
 ndg-httpsclient==0.5.1
 numpy==1.23.4
 oauthlib==3.2.2
+opencv-contrib-python==4.8.0.76
 opencv-python==4.6.0.66
 openpyxl==3.0.10
 outcome==1.2.0
@@ -118,12 +119,14 @@ polib==1.1.1
 prompt-toolkit==3.0.39
 psutil==5.9.2
 psycopg2==2.9.4
-psycopg2-binary==2.8.5
+psycopg2-binary==2.9.6
 pure-eval==0.2.2
 pusher==3.3.0
 pyasn1==0.4.8
 pycparser==2.21
 Pygments==2.16.1
+PyGreSQL==5.2.5
+PyJWT==2.8.0
 PyNaCl==1.5.0
 pyOpenSSL==22.1.0
 PyPDF2==1.26.0
