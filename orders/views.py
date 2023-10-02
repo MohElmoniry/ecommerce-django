@@ -9,6 +9,10 @@ import json
 from store.models import Product
 from django.core.mail import EmailMessage
 from django.template.loader import render_to_string
+from django.contrib import messages
+from django.conf import settings
+from django.utils.translation import gettext_lazy as _
+
 
 
 def payments(request):
@@ -162,30 +166,9 @@ def order_complete(request):
         return redirect('home')
 
 
-import requests
-from django.http import JsonResponse
-from django.views import View
-class PaymobPaymentView(View):
-    def post(self, request, *args, **kwargs):
-        # Replace with your API Key
-        API_KEY = 'your_api_key_here'
-        # Paymob API endpoint
-        url = 'https://www.paymob.com/api/v1/process'
-        # Payment data. Replace with actual data based on your application logic
-        data = {
-            'amount': 1000,
-            'order_id': 'some_order_id'
-            }
-        headers = {
-            'Content-Type': 'application/json',
-            'Authorization': f'Bearer {API_KEY}'
-            }
-        response = requests.post(url, json=data, headers=headers)
-        # Handling the response from Paymob
-        if response.status_code == 200:
-            # Process successful response
-            return JsonResponse(response.json(), status=200)
-        else:
-            # Handle errors
-            return JsonResponse(response.json(), status=response.status_code)
 
+
+
+
+
+    
