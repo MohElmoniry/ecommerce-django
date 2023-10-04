@@ -28,7 +28,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=True, cast=bool) # True
 
-ALLOWED_HOSTS = ['TheDressBoutique-env.eba-8pexc4xd.us-west-2.elasticbeanstalk.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -162,8 +162,8 @@ MEDIA_ROOT = BASE_DIR / 'media'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-
-
+PAYMOB_PUBLISHABLE_KEY = 'egy_pk_live_6sWCc4w2GVkv6bDhbIQ8FicMNJ9BXsYO'
+PAYMOB_SECRET_KEY = 'egy_sk_live_6914f7f2b8ac88d47a94f38864735afac123e16b10c1c4a7a21fcae3e503a37a'
 
 from django.contrib.messages import constants as messages
 MESSAGE_TAGS = {

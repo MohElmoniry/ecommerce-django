@@ -12,7 +12,7 @@ from django.template.loader import render_to_string
 from django.contrib import messages
 from django.conf import settings
 from django.utils.translation import gettext_lazy as _
-
+import requests
 
 
 def payments(request):
@@ -168,7 +168,6 @@ def order_complete(request):
 
 
 
+def state(request):
 
-
-
-    
+    return render(request, 'orders/state.html')

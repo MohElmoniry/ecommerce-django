@@ -108,8 +108,8 @@
       	</td>
       	<td>
       		<div class="price-wrap">
-      			<var class="price">$ {{ cart_item.sub_total }}</var>
-      			<small class="text-muted"> $ {{ cart_item.product.price }} each </small>
+      			<var class="price">EG {{ cart_item.sub_total }}</var>
+      			<small class="text-muted"> EG {{ cart_item.product.price }} each </small>
       		</div> <!-- price-wrap .// -->
       	</td>
 
@@ -121,6 +121,7 @@
 
       <button type="submit" name="submit" class="btn btn-primary btn-block">Place Order</button>
 			<a href="{% url 'store' %}" class="btn btn-light btn-block">Continue Shopping</a>
+
       </form>
 		</div> <!-- card-body.// -->
 		</div> <!-- card.// -->
