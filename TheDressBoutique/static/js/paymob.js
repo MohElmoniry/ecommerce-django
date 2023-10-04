@@ -48,7 +48,23 @@
             "amount_cents": amount, 
             "expiration": 3600, 
             "order_id": orderID,
-            "payment_method": payment_method, 
+            "payment_method": payment_method,
+
+            "billing_data": {
+                "apartment": "803", 
+                "email": "claudette09@exa.com", 
+                "floor": "42", 
+                "first_name": "Clifford", 
+                "street": "Ethan Land", 
+                "building": "8028", 
+                "phone_number": "+86(8)9135210487", 
+                "shipping_method": "PKG", 
+                "postal_code": "01898", 
+                "city": "Jaskolskiburgh", 
+                "country": "CR", 
+                "last_name": "Nicolas", 
+                "state": "Utah"
+            }, 
             "currency": "EGP", 
             "integration_id": '4221279'
         }
