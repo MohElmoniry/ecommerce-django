@@ -50,7 +50,6 @@ djangorestframework-jsonapi==6.1.0
 djangorestframework-jwt==1.11.0
 djangorestframework-simplejwt==2.0.0
 django-allauth==0.50
-djlint==1.31.1
 dnspython==2.2.1
 docutils==0.16
 dol==0.1.124
