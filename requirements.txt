@@ -1,7 +1,5 @@
-asttokens==2.4.0
 async-generator==1.10
 attrs==22.1.0
-Babel==2.10.3
 backcall==0.2.0
 bcrypt==4.0.1
 bidict==0.22.0
@@ -85,6 +83,4 @@ polib==1.1.1
 psutil==5.9.2
 psycopg2-binary==2.9.6
 pure-eval==0.2.2
-pyasn1==0.4.8
-pycparser==2.21
 
