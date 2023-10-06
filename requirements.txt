@@ -39,6 +39,7 @@ django-rest-auth==0.9.5
 django-session-timeout==0.1.0
 djangorestframework==3.14.0
 djangorestframework-jsonapi==6.1.0
+
 dnspython==2.2.1
 docutils==0.16
 dol==0.1.124
