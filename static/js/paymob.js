@@ -49,7 +49,6 @@
             "expiration": 3600, 
             "order_id": orderID,
             "payment_method": payment_method,
-
             "billing_data": {
                 "apartment": "803", 
                 "email": "claudette09@exa.com", 
