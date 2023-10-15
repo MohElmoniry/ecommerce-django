@@ -1,0 +1,8 @@
+
+.brand-wrap .logo, .navbar-brand .logo {
+    margin-right: 3px;
+    height: 100px;
+    max-height: 80px;
+    width: auto;
+    display: inline-block;
+}
