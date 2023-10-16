@@ -26,7 +26,7 @@
         let data = {
             "auth_token":  token,
             "delivery_needed": "false",
-            "amount_cents": amount,
+            "amount_cents": amount * '100',
             "currency": "EGP",
             "items": [],
         }
@@ -38,14 +38,14 @@
         })
         
         let response = await request.json()
-        let id = response.id
+        let orderID = response.orderID
         
-        thirdStep(token , id)
+        thirdStep(token , orderID)
     }
     async function thirdStep (token , orderID) {
         let data = {
             "auth_token": token,
-            "amount_cents": amount, 
+            "amount_cents":amount * '100', 
             "expiration": 3600, 
             "order_id": orderID,
             "payment_method": payment_method,
