@@ -2,6 +2,9 @@
     var amount = "{{ grand_total }}"
     var orderID = "{{order.order_number}}"
 	var payment_method = 'PayMob'
+    var redirect_url = "{% url 'order_complete' %}"
+    var url = "{% url 'payments' %}"
+
 
     const API = 'ZXlKaGJHY2lPaUpJVXpVeE1pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SmpiR0Z6Y3lJNklrMWxjbU5vWVc1MElpd2ljSEp2Wm1sc1pWOXdheUk2T1RBME1qY3hMQ0p1WVcxbElqb2lhVzVwZEdsaGJDSjkuOW9FOG9GUTI2MFlBdm1yZHNsaDJVcE50dzhIdDFPUU9fUDE3N3UtOUJPb3ZOVnIzZTU4ckVKUWdfVV9nT3Axc1Rna3dleDNoN1JDNVY1ekpjMDJNQWc='        // your api here
     const integrationID = 2627644;
@@ -81,4 +84,5 @@
         let iframURL = `https://accept.paymob.com/api/acceptance/iframes/788899?payment_token=${token}`
         location.href = iframURL
     }
+
     
