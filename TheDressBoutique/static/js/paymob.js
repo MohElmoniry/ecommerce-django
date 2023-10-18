@@ -2,7 +2,6 @@
     var amount = "{{ grand_total }}"
     var orderID = "{{order.order_number}}"
 	var payment_method = 'PayMob'
-    var redirect_url = "{% url 'order_complete' %}"
     var url = "{% url 'payments' %}"
 
 
